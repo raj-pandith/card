@@ -33,37 +33,37 @@ body {
 }
 
 /* Bio container */
-.bio {
+.card-content {
     border: 2px solid #ddd;
     padding: 12px;
     border-radius: 8px;
 }
 
 /* Interesting fact */
-.title {
+.card-fact {
     font-style: italic;
     margin-bottom: 10px;
 }
 
 /* List styling */
-.bio-points {
+.card-list {
     list-style: none;
     /* remove dots */
     padding: 0;
     margin-bottom: 10px;
 }
 
-.bio-points li {
+.card-list li {
     margin-bottom: 5px;
 }
 
 /* Bold labels */
-.bio-points span {
+.card-list span {
     font-weight: bold;
 }
 
 /* Description */
-.bio-desc {
+.bio-description {
     margin-top: 10px;
     line-height: 1.4;
 }
