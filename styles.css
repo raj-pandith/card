@@ -1,0 +1,73 @@
+/* image size */
+.card img {
+    width: 300px;
+}
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+
+/* Main card */
+.card {
+    width: 340px;
+    /* 300px image + padding */
+    padding: 20px;
+    margin: 40px auto;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Animal name */
+.card h3 {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Image */
+.card img {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Bio container */
+.bio {
+    border: 2px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Interesting fact */
+.title {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* List styling */
+.bio-points {
+    list-style: none;
+    /* remove dots */
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.bio-points li {
+    margin-bottom: 5px;
+}
+
+/* Bold labels */
+.bio-points span {
+    font-weight: bold;
+}
+
+/* Description */
+.bio-desc {
+    margin-top: 10px;
+    line-height: 1.4;
+}
